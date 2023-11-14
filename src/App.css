@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    font-family: 'Space Grotesk';
+}
+.cardWay{
+    background: url("./Assets/images/bg-main-desktop.png") no-repeat center/cover;
+   
+    
+}
+@media only screen and (max-width: 800px){
+    .cardWay{
+      background: url("./Assets/images/bg-main-desktop.png") no-repeat center/cover;
+      
+    }
+  }
+
+input.input-error,
+select.input-error{
+    border-color:red
+}
+button:disabled{
+    opacity: 0.35;
+}
